@@ -5,12 +5,12 @@
 	"license": "MIT",
 	"author": "Andreas Mehlsen",
 	"bugs": {
-		"url": "https://github.com/andreasbm/web-skills/issues"
+		"url": "https://github.com/atul22g/web-skills/issues"
 	},
-	"homepage": "https://github.com/andreasbm/web-skills#readme",
+	"homepage": "https://github.com/atul22g/web-skills#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/andreasbm/web-skills.git"
+		"url": "git+https://github.com/atul22g/web-skills.git"
 	},
 	"keywords": [
 		"web",
@@ -36,7 +36,7 @@
 	"scripts": {
 		"serve": "npx servor . index.html 1614 --browse",
 		"s": "npm run serve",
-		"deploy": "firebase deploy",
+		"deploy":"firebase deploy",
 		"lit-check": "npx lit-analyzer . --strict",
 		"generate-blueprint": "node --experimental-modules generate-blueprint.js",
 		"readme": "npm run generate-blueprint && npx @appnest/readme generate",

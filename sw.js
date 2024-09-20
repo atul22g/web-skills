@@ -98,7 +98,7 @@ self.addEventListener("message", async e => {
  */
 function log () {
 	if (DEBUG) {
-		console.log(`SW (${CACHE_NAME})`, ...arguments);
+		// console.log(`SW (${CACHE_NAME})`, ...arguments);
 	}
 }
 
